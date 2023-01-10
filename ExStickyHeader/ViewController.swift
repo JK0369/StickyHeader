@@ -23,8 +23,6 @@ class ViewController: UIViewController {
         view.axis = .vertical
         return view
     }()
-    
-    
     private let headerView: UIView = {
         let view = UIView()
         view.backgroundColor = .green
